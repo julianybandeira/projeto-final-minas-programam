@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Muli', sans-serif;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: 400;
+        line-height: 1.58;
+        letter-spacing: -.003em;
+        font-size: 20px;
+}
+
+body{
+    background-color: #FFEBE5;
+}
+
+#imagem{
+    max-width: 100vw;
+    height: 70vh;
+    background-image: url("img/Woman\ with\ dreadlocks\ -\ 1280x854.jpg");
+    background-repeat: no-repeat;
+}
+
+.imagens-servicos img{
+    width: 50%;
+    padding: 20px;
+}
+
+.imagens-servicos h2{
+    font-family: 'Tangerine', serif;
+    font-size: 80px;
+}
+
+header{
+    width: 100%;
+    background-color: #b19482;
+}
+
+h1{ 
+    padding: 30px;
+    color: #382315;
+    text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 38px;
+        line-height: 1.15;
+        letter-spacing: -.02em;
+
+        -webkit-font-smoothing: antialiased;
+}
+
+/*font-family: 'Tangerine', serif;*/
+
+h2{
+    color: #382315;
+    padding: 16px;
+    text-align: center;
+}
+
+h3{
+    padding: 20px;
+}
+
+.lista-menu li {
+    padding: 24px;
+    text-decoration: none;
+    list-style: none;
+    color:antiquewhite;
+}
+
+.lista-menu li>a{
+    color: antiquewhite;
+    font-size: 18px;
+    text-decoration: inherit;
+ }
+
+.lista-menu{
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;
+  }
+
+  .header-menu nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+  .lista-menu li>a{
+    font-size: 22px;
+    text-decoration: inherit;
+ }
+
+.imagens-servicos{    
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.imagens-servicos .img-frase{    
+    width:50%;
+}
+
+.imagens-servicos #frase{    
+    width:50%;
+}
+
+.imagens-servicos img{    
+    width:40%;
+}
+
+.imagens-servicos ul{
+    width: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.imagens-servicos ul li{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.imagens-servicos-dois{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens-servicos-dois img{
+    width: 48%;
+}
+
+#contato{
+    padding: 20px;
+    text-align: center;
+    height: 60vh;
+    text-decoration-line: none;
+}
+
+
+.agendamento img{
+    margin: 8px;
+}
+
+#contato .agendamento a{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #382315;
+}
+
+#contato .agendamento a:hover{
+    color: #a18474;
+}
+
+#localizacao{
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #b19482;
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista-footer{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.lista-footer img {
+    width: 20px;
+    margin: 8px;
+ }
+
+ nav img{
+    width: 140px;
+    border-radius: 100px;
+    margin: 10px;
+ }
